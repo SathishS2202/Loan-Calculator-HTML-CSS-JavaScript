@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(green, white);
+}
+
+.container {
+    margin: 10px 350px;
+    height: 110vh;
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+input {
+    width: 95%;
+    font-size: 2em;
+    height: 5vh;
+    padding: 10px;
+    margin: 20px 20px;
+    display: flex;
+}
+
+label {
+    margin: 30px 20px;
+    display: flex;
+    font-size: 3em;
+    font-weight: 500;
+    color: blue; /* Attractive blue */
+}
+
+button {
+    margin: 60px 20px;
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    width: 97%;
+    padding: 20px;
+    height: 9vh;
+    font-weight: 500;
+    background-color: green; /* Stylish green */
+    color: white;
+}
+
+h1 {
+    color: darkmagenta; /* Vibrant dark magenta */
+    text-align: center;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: darkblue; /* Deep blue on hover */
+}
+
+#result {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 3em;
+    color: orange; /* Attractive orange for the result */
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightgray; /* Light gray background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for the result box */
+}
